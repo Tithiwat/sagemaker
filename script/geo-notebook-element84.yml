@@ -1,0 +1,27 @@
+name: odc-geonotebook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.13
+  - awscliv2
+  - ipykernel
+  - cartopy
+  - shapely
+  - geopandas
+  - geogif
+  - datacube
+  - pystac
+  - pystac-client
+  - odc-stac >= 0.3.1
+  - coiled
+  - stackstac
+  - rasterio
+  - rioxarray
+  - planetary-computer
+  - dask-image
+  - dask-labextension
+  - hvplot
+  - geoviews
+  - datashader
+  - jupyter-server-proxy
+  - bokeh=2.4.3
